@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../Awesome_Skills"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "jopravic-2.0"
+	}
+}
