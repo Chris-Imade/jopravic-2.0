@@ -7659,10 +7659,22 @@ div {
   -webkit-margin-start: 5px;
           margin-inline-start: 5px;
 }
-.cta-section .btn--tertiary,
+.cta-section .btn--tertiary {
+  padding: 20px 40px;
+  border-radius: 60px;
+}
 .cta-section .btn--primary {
   padding: 20px 40px;
   border-radius: 60px;
+  background-color: var(--black);
+  color: var(--white);
+  border: 2px solid var(--black);
+  transition: all 0.3s ease;
+}
+.cta-section .btn--primary:hover {
+  background-color: var(--white);
+  color: var(--black);
+  border-color: var(--black);
 }
 .cta-section .btn--tertiary::before, .cta-section .btn--tertiary::after,
 .cta-section .btn--primary::before,
